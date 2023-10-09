@@ -48,3 +48,9 @@ The API has the ability to perform the following actions:
 
 A mechanism for verifying the e-mail of a registered user, a limited number of requests and their speed (creation of contacts for the user) has been added.
 CORS is also enabled for the REST API, and the update of the user avatar using the Cloudinary service is implemented.
+
+# Sphinx
+
+Sphinx cannot find my python files. Says 'no module named ...'
+
+[Stackoverflow](https://stackoverflow.com/questions/53668052/sphinx-cannot-find-my-python-files-says-no-module-named)
