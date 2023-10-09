@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "m02_13"
+version = "0.1.0"
+description = ""
+authors = ["Andrii Chychur sideroalogo8@gmail.com"]
+readme = "README.md"
+packages = [{include = "m02_13"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-multipart = "^0.0.5"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+fastapi = "^0.92.0"
+uvicorn = {extras = ["standart"], version = "^0.20.0"}
+sqlalchemy = "^2.0.4"
+psycopg2-binary = "^2.9.5"
+pydantic = {extras = ["dotenv", "email"], version = "^1.10.6"}
+faker = "^17.3.0"
+fastapi-mail = "^1.2.6"
+redis = "^4.5.1"
+fastapi-limiter = "^0.1.5"
+cloudinary = "^1.32.0"
+libgravatar = "^1.0.4"
+alembic = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
